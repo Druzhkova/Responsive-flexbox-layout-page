@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  background: darkgrey;
+}
+
+.wrapper>*{
+  padding: 10px;
+  margin: 10px;
+  flex: 1 100%;
+  border-radius: 10px;
+}
+
+.header {
+  height: 120px;
+  background: tomato;
+}
+
+.main {
+  height: 300px;
+  font-size: 24px;
+  text-align: left;
+  background: deepskyblue;
+}
+
+.aside1 {
+  background: gold;
+}
+
+.aside2 {
+  background:hotpink;
+}
+
+.footer {
+  height: 80px;
+  background: lightgreen;
+}
